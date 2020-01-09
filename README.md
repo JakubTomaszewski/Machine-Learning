@@ -1,1 +1,3 @@
-"# ML projects" 
+# ML projects
+
+#### Neighbors algorithm
