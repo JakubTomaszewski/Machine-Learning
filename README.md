@@ -2,4 +2,4 @@
 
 - Neighbors algorit
 - Linear regression
-#### - Lasso
+- Lasso 
