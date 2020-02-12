@@ -1,5 +1,5 @@
 # ML projects
 
-#### - Neighbors algorithm
-#### - Linear regression
+- Neighbors algorit
+- Linear regression
 #### - Lasso
