@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from scipy.spatial import distance
 
-#creating my classifier
+#creating my classifier which works as the Neighbors classifier
 class Classifier():
     def fit(self, features, labels):
         self.x_train = features
@@ -32,9 +32,6 @@ y = iris.target
 x_train, x_test, y_train,  y_test = train_test_split(x, y, test_size=0.5)
 
 clf = Classifier()
-
-# from sklearn.neighbors import KNeighborsClassifier
-# clf = KNeighborsClassifier()
 
 clf.fit(x_train, y_train)
 
