@@ -14,6 +14,8 @@ x_test = x_test.reshape(-1,1)
 
 linreg.fit(x_train, Y_train)
 
+print('Score is {}'.format(linreg.score(x_test, Y_test)))
+
 print('The coefficient is: {}\nand the intercept: {}'.format(linreg.coef_, linreg.intercept_))
 
 #model visualization
@@ -23,5 +25,5 @@ plt.scatter(x_test, Y_test, color='red', marker='+')
 plt.plot(x_test, linreg.predict(x_test), color='blue')
 
 plt.xlabel('G1', fontsize=15)
-plt.ylabel('G3', fontsize=15)
+plt.ylabel('G2', fontsize=15)
 plt.show()

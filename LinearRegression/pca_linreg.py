@@ -46,7 +46,7 @@ plt.xticks(range(len(df_small.columns)), df_small.columns, rotation=60)
 plt.ylabel('Coefficients')
 
 plt.show()
-plt.savefig('lasso_features.pdf')
+# plt.savefig('lasso_features.pdf')
 
 
 # instantiate PCA and fit data
@@ -63,7 +63,7 @@ plt.ylabel('variance')
 plt.xlabel('PCA feature')
 
 plt.show()
-plt.savefig('pca_features.pdf')
+# plt.savefig('pca_features.pdf')
 
 # 4 features are the most valuable for our prediction
 pca_model = PCA(n_components=4)
