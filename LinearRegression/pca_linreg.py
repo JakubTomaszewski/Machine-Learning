@@ -131,3 +131,4 @@ plt.ylabel('Number of students')
 
 plt.legend()
 plt.show()
+
